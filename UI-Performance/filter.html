@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    <input type="text" ng-model="search">
+    <ul>
+        <li ng-repeat="x in names | filter : search">
+            {{ x }}
+        </li>
+    </ul>
+</div>
+<script>
+angular.module('myApp', []).controller('myCtrl', function($scope) {
+  $scope.names = [
+    'Ramya',
+	'Radha',
+	'Raj',
+	'Lakshmi',
+	'Venu',
+	'Tom',
+	'Yamini',
+	'Love'
+];
+});
+</script>
+</body>

@@ -1,23 +1,53 @@
 <!DOCTYPE html>
  <html>
    <head>
-     <!--Todo: Replace with some form-->
-       <ul>
-           <li>Ramya</li>
-           <li>Narendra</li>
-           <li>Gopi</li>
-           <li>Tirumula</li>
-       </ul>
-       <!--
-       <ol>
-           <li>Ramya</li>
-           <li>Narendra</li>
-           <li>Gopi</li>
-           <li>Tirumula</li>
-
-       </ol>
-       -->
-      <h1>ul and ol can have only one child element that is li</h1>
-     <!--Todo:Replace with the form-->
+       <h1>Welcome to my Website</h1>
    </head>
-</html>
+   <article>
+       <header></header>
+       <section>
+           <header></header>
+           <secttion>
+               <form>
+                 <title>Ramya Creating one form</title>
+                 <!--This is first name:<input type=""text" placeholder="First Name"><br>-->
+                 <!--This is second name:<input type="text" placeholder="Last Name"-->
+                 <!--this is first name-->
+                 <label for ="firstName">Applicant's First Name:</label>
+                 <input type="text" id="firstName" name="firstName" placeholder="First Name"/><br>
+                 <!--This is second name-->
+                 <label for ="lastName">Applicant's Last Name:</label>
+                 <input type="text" id="lastName" name="lastName" placeholder="Last Name"/><br>
+                 <!--This is applicant phn no-->
+                 <label for="phoneNumber">Applicant's phn no:</label>
+                 <input type="number" id="phoneNumber" name="number" placeholder="Phone number"/><br>
+                 <!--This is about Gender-->
+                  <label for ="gender">Applicant's Gender:</label>
+                    <div id="gender">
+                        <!--Male-->
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="gender"/>
+                        <!--Female-->
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="gender"/>
+                    </div><br>
+                  <div>
+                      <label for="seniorCitizen">Is applicant is a senior citizen:</label>
+                      <input type="checkbox" id="seniorCitizen" name="seniorCitizen"/>
+                  </div><br>
+                  <!--button-->
+                  <button type="submit" id="submit" name="submit">
+                     <span>submit</span>
+                  </button>
+                  <!--reset-->
+                  <button type="reset" id="reset" name="reset">
+                      <span>Reset</span>
+                  </button>
+
+               </form>
+           </secttion>
+           <footer>This is tirumula Chowdary</footer>
+       </section>
+       <footer></footer>
+   </article>
+ </html>

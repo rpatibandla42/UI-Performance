@@ -1,4 +1,13 @@
-input{
-background-color:#00ffff;
+form{
+border: 2px solid #000;
 
+
+}
+
+#reset{
+ color: #ff0000
+}
+
+#reset{
+ color: #ff00ff;
 }

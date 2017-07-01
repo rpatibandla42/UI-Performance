@@ -1,15 +1,21 @@
-form{
-border: 2px solid #000;
 
-
+form [data-Ramya="Venu"]{
+border: 2px solid #0f0;
 }
+
+form{
+border: 2px solid #ff0000;
+}
+
 
 #reset{
  color: #ff0000
 }
 
 #reset{
- color: #ff00ff;
+ background-color: #f00;
+ color: #f00;
+ border-color: #000
 }
 
 #email{
@@ -19,3 +25,13 @@ border: 2px solid #000;
 button[type="submit"]{
 color: #0000ff;
 }
+
+#text, #email{
+background-color: #0f0;
+border-color: #000;
+}
+
+#email{
+ border-radius: 10px;
+}
+

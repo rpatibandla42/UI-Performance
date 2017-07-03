@@ -78,3 +78,9 @@ color: #fff;
 margin: 20px;
 padding: 5px;
 }
+
+li{
+ display: inline-block;
+ margin: 0px 10px;
+
+}

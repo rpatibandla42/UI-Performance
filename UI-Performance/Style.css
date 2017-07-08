@@ -69,6 +69,13 @@ color: #fff;
 margin: 20px;
 padding: 5px;
 }
+#submit:hover{
+ border: 2px solid #c50d5c;
+ background: #8e54fe;
+ cursor: pointer;
+
+
+}
 
 #reset{
 background: #f00;
@@ -77,6 +84,12 @@ border-radius: 4px;
 color: #fff;
 margin: 20px;
 padding: 5px;
+}
+
+#reset:hover{
+ border: 3px solid #000;
+ background:#8026e7;
+ cursor:pointer;
 }
 
 li{
@@ -91,6 +104,3 @@ ul li:nth-child(4){
 
 }
 
-form[name="New license form"] div:nth-child(1){
- background-color: #f00;
-}

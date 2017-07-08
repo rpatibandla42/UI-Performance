@@ -84,6 +84,13 @@ li{
  margin: 0px 10px;
 }
 
-ul{
- float: right;
+ul li:nth-child(4){
+  background:#bbb;
+ /*float: right;*/
+/* position:fixed;*/
+
+}
+
+form[name="New license form"] div:nth-child(1){
+ background-color: #f00;
 }

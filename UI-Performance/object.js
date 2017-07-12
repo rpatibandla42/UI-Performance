@@ -15,9 +15,9 @@ var x={
 
 };
 
-x.firstName='Venu',
-x.y.lastName='Takkelapti',
-x.y.z.age=50
+x['firstName']='Venu',
+x.y['lastName']='Takkelapti',
+x.y.z['age']=50
 
 var a={
 

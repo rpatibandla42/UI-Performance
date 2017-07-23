@@ -20,10 +20,43 @@
 //}
 //console.log(addition());
 
-var a=function(){
+//var addition=function(){
+//
+//var x=1;
+//var test={
+// firstName:'Ramya',
+// age:22,
+// isPresent:true
+//};
+//return(test.firstName);
+//}
+//console.log(addition());
 
-var x=1;
-var y=(x+1);
-return y;
+//var global=100;
+//
+//function test(){
+//
+//console.log(global);
+//};
+//
+//console.log(global);
+//test();
+
+(function(){
+
+var global=200;
+
+function addition(){
+
+var local=20;
+console.log(global);
+console.log(local);
+
 }
-console.log(a());
+addition();
+console.log(global);
+console.log(local);
+
+
+
+})();

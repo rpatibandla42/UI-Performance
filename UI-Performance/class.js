@@ -1,19 +1,18 @@
 (function(){
-//This class is now an object that can be reused any number of times
-function x(){
 
-this.firstName='Ramya',
-this.lastName='Patibandla'
-}
-console.log(x());
-//creating a new instance of x object(class x)
-var y=new x();
-y.firstName='Narendra',
-y.lastName='Chowdary'
-console.log(y);
+ function subtract(greater, lesser){
+  var output = greater - lesser;
+ return{
+    out: output
+ }
+ }
+  var alpha = subtract(5, 2);
+  console.log(alpha);
 
-var z=new x();
-z.firstName='Tirumula',
-z.lastName='Chowdar'
-console.log(z);
+  var beta = Object.create(alpha);//now beta inherting the property of alpha
+  beta.out2=subtract(9, 1);
+
+  console.log(beta)
+
+
 })();

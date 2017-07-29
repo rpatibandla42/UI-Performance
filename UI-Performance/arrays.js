@@ -38,4 +38,9 @@
    }
    here omega cloning the data of Array
   */
+
+ var a = ['Ramya', 'Patibandla'];
+ console.log(a.push('Venu'));
+//a.push('Venu'); It means add something to the Array
+
 })();

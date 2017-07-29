@@ -26,7 +26,7 @@
    omega[2] = 'Gopi',
    omega[3] = 'Tirumula'
 
-   console.log(Array.isArray(omega));//it showing true
+   console.log(omega.length);//it showing length is 4
    var delta = 33;
    console.log(Array.isArray(delta));//It display false because delta is not a class
    //by using this we can check variable is array or not.

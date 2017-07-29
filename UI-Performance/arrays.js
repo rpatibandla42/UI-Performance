@@ -21,7 +21,15 @@
    console.log(theta);
 
    var omega = new Array();
-   console.log(omega.concat);
+   omega[0] = 'Ramay',
+   omega[1] = 'Narendra',
+   omega[2] = 'Gopi',
+   omega[3] = 'Tirumula'
+
+   console.log(Array.isArray(omega));//it showing true
+   var delta = 33;
+   console.log(Array.isArray(delta));//It display false because delta is not a class
+   //by using this we can check variable is array or not.
    /*
    omega.concat means omega is object contact is property of object
    */

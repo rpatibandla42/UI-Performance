@@ -43,4 +43,7 @@
  console.log(a.push('Venu'));
 //a.push('Venu'); It means add something to the Array
 
-})();
+ var b = ['Ramya', 'Narendra', 'Revathi', 'Shabeera'];
+  b.pop();
+  console.log(b);
+}) ();

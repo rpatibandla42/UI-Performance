@@ -13,4 +13,19 @@ var names = ['Venu', 'Tarun', 'srikanth', 'Gopi', 'Timmu'];
 names.splice(1, 2);//here removes both tarun and srikanth
 console.log(names);
 
+var e = ['Tom', 'Paul', 'Leif', 'Nandigam'];
+ //e.indexOf('Paul');
+
+ console.log(e.indexOf('Leif'));
+
+ var c = ['Neha', 'Harsha'];
+ var d = ['Tom', 'Paul', 'Leif', 'Nandigam'];
+
+ var f = c.concat(d);
+ console.log(f);
+ //The draw back of concat is simple merge that one but it not checks the duplicates
+
+
+
+
 }) ();

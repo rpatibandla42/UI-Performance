@@ -24,8 +24,16 @@ var e = ['Tom', 'Paul', 'Leif', 'Nandigam'];
  var f = c.concat(d);
  console.log(f);
  //The draw back of concat is simple merge that one but it not checks the duplicates
+//this function will check for value if it is not equal to Tom then retrun true or else false
 
+ function filterOut(value){
+ //check value is not equal to Tom
+  return (value !== 'Tom');
+ }
 
+var g = ['Tom', 'Tim', 'Tom', 'Paul', 'Nandigam'];
+ var h = g.filter(filterOut);
+ console.log(h);
 
 
 }) ();

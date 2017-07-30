@@ -35,5 +35,9 @@ var g = ['Tom', 'Tim', 'Tom', 'Paul', 'Nandigam'];
  var h = g.filter(filterOut);
  console.log(h);
 
+ var i = ['Viswa', 'Naresh', 'venu', 'Timmu'];
+//  console.log(i.join());//It display o/p like Viswa,Naresh,Venu,Timmu
+  //console.log(i.join( / )); //It disply o/p like Viswa/Naresh/Venu/Timmu
+
 
 }) ();

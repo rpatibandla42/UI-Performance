@@ -1,12 +1,8 @@
-function globalFunc(){
-  var global = 'Ramya';
-  function localFunc(){
-  // var global = 'Patibandla';
-   console.log(global);
+function sum(){
+ this.a = 2;
+ this.b = 3;
+ this.c = this.a + this.b;
 
-  }
-
-localFunc()
-
-}
-globalFunc();
+ }
+ var result = new sum();
+ console.log(result.c);

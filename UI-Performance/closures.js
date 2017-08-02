@@ -1,8 +1,14 @@
 function sum(){
- this.a = 2;
- this.b = 3;
- this.c = this.a + this.b;
 
+ var _sum = this;//always create alias for this keyword
+ _sum.a = 1;
+
+  _sum.difference = function(){
+
+   var _self = this;
+   _self.a = 5;
+   _sum.a = 6;
+  }
  }
- var result = new sum();
- console.log(result.c);
+var result = new sum();
+console.log(result.a);

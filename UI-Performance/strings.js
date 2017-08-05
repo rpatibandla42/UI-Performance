@@ -2,8 +2,10 @@
 
 (function(){
 
- var test = 'Ramya Patibandla';
- var newTest = test.substr(1, 4);
+ var test1 = 'Ramya Patibandla is good girl';
+ var test2 = 'Ramya is good girl';
 
- console.log(newTest);
+   //var test3 = test.match(newTest);
+
+ console.log(test1.match(test2));
 })();

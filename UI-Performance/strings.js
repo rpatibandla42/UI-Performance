@@ -2,10 +2,8 @@
 
 (function(){
 
- var test = 'Ramya Patibandla';
- var test1 = test.replace(/Ramya/i,'Gopi');
+ var test = 'Ramya';
+ var newTest = test.concat(' ', 'Patibandla', ' ', 'is doing great');
 
- //var output = test + test1;
-//+-> This performs a string concatination it means merging two strings.
- console.log(test1);
+ console.log(newTest);
 })();

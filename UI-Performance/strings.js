@@ -2,8 +2,8 @@
 
 (function(){
 
- var test = 'Ramya';
- var newTest = test.concat(' ', 'Patibandla', ' ', 'is doing great');
+ var test = 'Ramya Patibandla';
+ var newTest = test.substr(1, 4);
 
  console.log(newTest);
 })();

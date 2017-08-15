@@ -1,17 +1,22 @@
 (function(){
+//To access an element H1 we can use a in build object call, named as 'getElementById'
 
-   var test = [22,33,54,43,23,65,54,44,88,506];
-   var name = '4';
-   var num = 4;
+  //console.log(document.getElementById('Heading'));
+   //var x = getElementById('Heading');
+   console.log(document.getElementById('Heading'));
+   console.log(document.getElementsByClassName('test')[2]);
+   //by using index 3 here we can access only 3rd line
+   console.log(document.getElementsByTagName('p'));
+   //This is for select all p tags
+   console.log(document.getElementsByTagName('p')[1]);
+   //In tags also we can mention index also
 
-  if(name === num){
+   console.log(document.querySelector('.test'));
+   //This is for selecting a class elemnt by using .
+   console.log(document.querySelector('p'));
+   //By using this we can select html elemnt # and also we can select tag also
 
-   console.log('This is true');
-  }
 
-  else{
-
-   console.log('This is false');
-  }
 
 })();
+
